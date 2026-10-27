@@ -1,0 +1,40 @@
+{
+  "name": "restaurant-ordering-system",
+  "version": "1.0.0",
+  "description": "Projeto da disciplina de Desenvolvimento Back-end do curso de Engenharia de Software - 4P",
+  "keywords": [
+    "back-end",
+    "ts",
+    "api",
+    "restaurant",
+    "order"
+  ],
+  "homepage": "https://github.com/LuizH-Angelo/ordering-system-restaurant#readme",
+  "bugs": {
+    "url": "https://github.com/LuizH-Angelo/ordering-system-restaurant.git"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuizH-Angelo/ordering-system-restaurant.git"
+  },
+  "license": "ISC",
+  "author": "Luiz H Angelo",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch --env-file=.env --import=tsx/esm src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "tsx": "^4.23.12",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.112.4",
+    "@types/express": "^5.0.6",
+    "express": "^5.2.1"
+  }
+}
